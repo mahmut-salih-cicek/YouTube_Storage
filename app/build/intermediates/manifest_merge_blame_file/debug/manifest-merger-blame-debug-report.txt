@@ -1,0 +1,321 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xmod.developer.inc"
+4    android:versionCode="3"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:5:2-63
+11-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:5:19-61
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:6:2-62
+12-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:6:19-60
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:7:2-75
+13-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:7:19-73
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:8:2-76
+14-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:8:19-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:9:2-77
+15-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:9:19-75
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:26:5-110
+17-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:26:22-79
+19
+20    <permission
+20-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+21        android:name="com.xmod.developer.inc.permission.C2D_MESSAGE"
+21-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+22        android:protectionLevel="signature" />
+22-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+23
+24    <uses-permission android:name="com.xmod.developer.inc.permission.C2D_MESSAGE" />
+24-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+24-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+25
+26    <application
+26-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:10:2-82:16
+27        android:allowBackup="true"
+27-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:11:3-29
+28        android:debuggable="true"
+29        android:icon="@drawable/app_icon"
+29-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:13:3-36
+30        android:label="YouTube Storage"
+30-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:12:3-34
+31        android:largeHeap="true"
+31-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:14:3-27
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:15:3-34
+34        <meta-data
+34-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:18:3-20:61
+35            android:name="com.google.android.gms.ads.APPLICATION_ID"
+35-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:19:4-60
+36            android:value="ca-app-pub-4377139267165661~7767037784" />
+36-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:20:4-58
+37
+38        <activity
+38-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:23:3-31:14
+39            android:name="com.xmod.developer.inc1.MainActivity"
+39-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:24:4-32
+40            android:configChanges="orientation|screenSize"
+40-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:25:4-50
+41            android:windowSoftInputMode="stateHidden" >
+41-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:26:4-45
+42            <intent-filter>
+42-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:27:4-30:20
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:28:5-56
+43-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:28:13-54
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:29:5-64
+45-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:29:15-62
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:32:3-34:52
+49            android:name="com.xmod.developer.inc1.VideoActivity"
+49-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:33:4-33
+50            android:configChanges="orientation|screenSize" />
+50-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:34:4-50
+51        <activity
+51-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:35:3-37:52
+52            android:name="com.xmod.developer.inc1.AudioActivity"
+52-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:36:4-33
+53            android:configChanges="orientation|screenSize" />
+53-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:37:4-50
+54        <activity
+54-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:38:3-42:47
+55            android:name="com.xmod.developer.inc1.SplashActivity"
+55-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:39:4-34
+56            android:configChanges="orientation|screenSize"
+56-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:40:4-50
+57            android:theme="@style/AppTheme.FullScreen"
+57-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:41:4-46
+58            android:windowSoftInputMode="stateHidden" />
+58-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:42:4-45
+59        <activity
+59-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:43:3-47:47
+60            android:name="com.xmod.developer.inc1.Splash2Activity"
+60-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:44:4-35
+61            android:configChanges="orientation|screenSize"
+61-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:45:4-50
+62            android:theme="@style/AppTheme.FullScreen"
+62-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:46:4-46
+63            android:windowSoftInputMode="stateHidden" />
+63-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:47:4-45
+64        <activity
+64-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:48:3-52:42
+65            android:name="com.xmod.developer.inc1.AcilisActivity"
+65-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:49:4-34
+66            android:configChanges="orientation|screenSize"
+66-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:50:4-50
+67            android:screenOrientation="portrait"
+67-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:52:4-40
+68            android:theme="@style/AppTheme.FullScreen" />
+68-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:51:4-46
+69        <activity
+69-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:53:3-57:42
+70            android:name="com.xmod.developer.inc1.XmodhakkindaActivity"
+70-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:54:4-40
+71            android:configChanges="orientation|screenSize"
+71-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:55:4-50
+72            android:screenOrientation="portrait"
+72-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:57:4-40
+73            android:theme="@style/AppTheme.FullScreen" />
+73-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:56:4-46
+74        <activity
+74-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:58:3-61:42
+75            android:name="com.xmod.developer.inc1.MailsendxmodActivity"
+75-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:59:4-40
+76            android:configChanges="orientation|screenSize"
+76-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:60:4-50
+77            android:screenOrientation="portrait" />
+77-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:61:4-40
+78        <activity
+78-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:62:3-66:47
+79            android:name="com.xmod.developer.inc1.YenilikActivity"
+79-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:63:4-35
+80            android:configChanges="orientation|screenSize"
+80-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:64:4-50
+81            android:theme="@style/AppTheme.FullScreen"
+81-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:65:4-46
+82            android:windowSoftInputMode="stateHidden" />
+82-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:66:4-45
+83        <activity
+83-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:67:3-70:54
+84            android:name="com.google.android.gms.ads.AdActivity"
+84-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:68:4-56
+85            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+85-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:69:4-113
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:32:13-37
+87            android:theme="@android:style/Theme.Translucent" />
+87-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:70:4-52
+88
+89        <meta-data
+89-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:71:3-73:59
+90            android:name="com.google.android.gms.version"
+90-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:72:4-49
+91            android:value="@integer/google_play_services_version" />
+91-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:73:4-57
+92
+93        <provider
+93-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:74:3-78:29
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:75:4-68
+95            android:authorities="com.xmod.developer.inc.firebaseinitprovider"
+95-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:76:4-69
+96            android:exported="false"
+96-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:77:4-28
+97            android:initOrder="100" />
+97-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:78:4-27
+98
+99        <uses-library
+99-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:79:3-81:30
+100            android:name="org.apache.http.legacy"
+100-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:80:4-41
+101            android:required="false" />
+101-->D:\mahmut\youtube\app\src\main\AndroidManifest.xml:81:4-28
+102
+103        <activity
+103-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:23:9-29:75
+104            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+104-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:24:13-85
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:25:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:26:13-36
+107            android:launchMode="singleInstance"
+107-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:27:13-48
+108            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+108-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:28:13-102
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:29:13-72
+110
+111        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+111-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:9-31:19
+111-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:18-89
+112            <meta-data
+112-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:28:13-30:85
+113                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+113-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:29:17-139
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:30:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:36:13-38:85
+116                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+116-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:37:17-96
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:38:17-82
+118        </service>
+119
+120        <receiver
+120-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:29:9-33:20
+121            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+121-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:30:13-85
+122            android:enabled="true"
+122-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:31:13-35
+123            android:exported="false" >
+123-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:32:13-37
+124        </receiver>
+125        <receiver
+125-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:34:9-42:20
+126            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+126-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:35:13-100
+127            android:enabled="true"
+127-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:36:13-35
+128            android:exported="true"
+128-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:37:13-36
+129            android:permission="android.permission.INSTALL_PACKAGES" >
+129-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:38:13-69
+130            <intent-filter>
+130-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:39:13-41:29
+131                <action android:name="com.android.vending.INSTALL_REFERRER" />
+131-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:40:17-79
+131-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:40:25-76
+132            </intent-filter>
+133        </receiver>
+134
+135        <service
+135-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:44:9-47:40
+136            android:name="com.google.android.gms.measurement.AppMeasurementService"
+136-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:45:13-84
+137            android:enabled="true"
+137-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:46:13-35
+138            android:exported="false" />
+138-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:47:13-37
+139        <service
+139-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:48:9-52:72
+140            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+140-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:49:13-87
+141            android:enabled="true"
+141-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:50:13-35
+142            android:exported="false"
+142-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:51:13-37
+143            android:permission="android.permission.BIND_JOB_SERVICE" />
+143-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:52:13-69
+144
+145        <receiver
+145-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:41:9-50:20
+146            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+146-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:42:13-78
+147            android:exported="true"
+147-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:43:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:44:13-73
+149            <intent-filter>
+149-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:46:17-81
+150-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:46:25-78
+151
+152                <category android:name="com.xmod.developer.inc" />
+152-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+152-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+153            </intent-filter>
+154        </receiver>
+155        <!--
+156             FirebaseInstanceIdService performs security checks at runtime,
+157             no need for explicit permissions despite exported="true"
+158        -->
+159        <service
+159-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:56:9-62:19
+160            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+160-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:57:13-77
+161            android:exported="true" >
+161-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:58:13-36
+162            <intent-filter android:priority="-500" >
+162-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:59:13-61:29
+162-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:59:28-51
+163                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+163-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:60:17-80
+163-->[com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:60:25-77
+164            </intent-filter>
+165        </service>
+166
+167        <activity
+167-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+168            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+168-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+170-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+171    </application>
+172
+173</manifest>

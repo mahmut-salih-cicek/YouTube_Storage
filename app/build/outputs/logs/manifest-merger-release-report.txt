@@ -1,0 +1,540 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\979ba070fb608eefc4c9d4e151d92736\design-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d674fe74b08909c1f061a20d4df48fac\appcompat-v7-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-database:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d92b8da6dae7a04215540b3d445760ac\firebase-database-15.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\cd2937a3b8f4ca58e92ed0fd421e6ceb\firebase-storage-15.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\6a05ee5d0090dfc73a6b59e5a1db2ed6\play-services-ads-15.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\62d16e1922e2d18b643421fafccc28b6\firebase-core-15.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-database-connection:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\0d315db11d42af3ae6287baf008b13c5\firebase-database-connection-15.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\314a68fb84397fcee638457a735e6ea9\play-services-flags-15.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2dc94424ce2b3a06e8f9f7de726dc418\firebase-iid-interop-15.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\baa4bcf62c3f9fcca206371b6ea130a3\play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d25eef120a2c02211dea11a0370195e3\firebase-database-collection-15.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\097f971830ff53cbe389585c58b0ec9e\firebase-storage-common-15.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4f3780ec8d2f27ff7de8e1fcd5376383\play-services-ads-identifier-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bb89fd6504b3be4409173f3a0649ba99\play-services-gass-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\db8c84f8c3dd0a0c7679102f10c586c2\play-services-stats-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1cb2db49ada91fafd0f3de7a0fed3605\firebase-measurement-connector-15.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e5250c0fe1a842cef4d5848ef9068b2e\support-v4-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\cda701b87e206174bcadc86e87a11091\customtabs-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1ae2ad0a2e4a9df58a54ebd5aba2775a\support-fragment-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\5ba83ff13fcf33414efb42386320cd85\support-core-utils-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\94d3653b1565a9bb080d68c6f4e8ed8e\animated-vector-drawable-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\f80b1380080818de7efa896afd4df73c\support-vector-drawable-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d1858a2435befcf6bd97025aaa6151b4\recyclerview-v7-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\82ba0796dc993ce848612e8e19542e96\transition-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c2886df1ff95f8909c946238da21af28\support-media-compat-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bfb24a31690706bf3b7808f9d6733e0b\support-core-ui-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2a15bf07dd031a01f4777ec3b815210c\support-compat-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\46309bf182db0088520ffa71f9f5ec33\play-services-ads-base-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\f20c0066b92c4254345617ac44dc6471\runtime-1.0.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\53a0a5582fc1bb504c8435f4773cb6a4\play-services-measurement-base-15.0.2\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+	package
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:3:2-35
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:1:1-83:12
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:2:2-60
+uses-permission#android.permission.INTERNET
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:5:2-63
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:5:19-61
+uses-permission#android.permission.VIBRATE
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:6:2-62
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:6:19-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:7:2-75
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:7:19-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:8:2-76
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:8:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:9:2-77
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:9:19-75
+application
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:10:2-82:16
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\62d16e1922e2d18b643421fafccc28b6\firebase-core-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\62d16e1922e2d18b643421fafccc28b6\firebase-core-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2dc94424ce2b3a06e8f9f7de726dc418\firebase-iid-interop-15.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2dc94424ce2b3a06e8f9f7de726dc418\firebase-iid-interop-15.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\baa4bcf62c3f9fcca206371b6ea130a3\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\baa4bcf62c3f9fcca206371b6ea130a3\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4f3780ec8d2f27ff7de8e1fcd5376383\play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4f3780ec8d2f27ff7de8e1fcd5376383\play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bb89fd6504b3be4409173f3a0649ba99\play-services-gass-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bb89fd6504b3be4409173f3a0649ba99\play-services-gass-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\db8c84f8c3dd0a0c7679102f10c586c2\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\db8c84f8c3dd0a0c7679102f10c586c2\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1cb2db49ada91fafd0f3de7a0fed3605\firebase-measurement-connector-15.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1cb2db49ada91fafd0f3de7a0fed3605\firebase-measurement-connector-15.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\46309bf182db0088520ffa71f9f5ec33\play-services-ads-base-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\46309bf182db0088520ffa71f9f5ec33\play-services-ads-base-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\53a0a5582fc1bb504c8435f4773cb6a4\play-services-measurement-base-15.0.2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\53a0a5582fc1bb504c8435f4773cb6a4\play-services-measurement-base-15.0.2\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:12:3-34
+	android:largeHeap
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:14:3-27
+	android:icon
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:13:3-36
+	android:allowBackup
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:11:3-29
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:15:3-34
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:18:3-20:61
+	android:value
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:20:4-58
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:19:4-60
+activity#com.xmod.developer.inc1.MainActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:23:3-31:14
+	android:windowSoftInputMode
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:26:4-45
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:25:4-50
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:24:4-32
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:27:4-30:20
+action#android.intent.action.MAIN
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:28:5-56
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:28:13-54
+category#android.intent.category.LAUNCHER
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:29:5-64
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:29:15-62
+activity#com.xmod.developer.inc1.VideoActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:32:3-34:52
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:34:4-50
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:33:4-33
+activity#com.xmod.developer.inc1.AudioActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:35:3-37:52
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:37:4-50
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:36:4-33
+activity#com.xmod.developer.inc1.SplashActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:38:3-42:47
+	android:windowSoftInputMode
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:42:4-45
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:40:4-50
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:41:4-46
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:39:4-34
+activity#com.xmod.developer.inc1.Splash2Activity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:43:3-47:47
+	android:windowSoftInputMode
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:47:4-45
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:45:4-50
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:46:4-46
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:44:4-35
+activity#com.xmod.developer.inc1.AcilisActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:48:3-52:42
+	android:screenOrientation
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:52:4-40
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:50:4-50
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:51:4-46
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:49:4-34
+activity#com.xmod.developer.inc1.XmodhakkindaActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:53:3-57:42
+	android:screenOrientation
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:57:4-40
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:55:4-50
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:56:4-46
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:54:4-40
+activity#com.xmod.developer.inc1.MailsendxmodActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:58:3-61:42
+	android:screenOrientation
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:61:4-40
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:60:4-50
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:59:4-40
+activity#com.xmod.developer.inc1.YenilikActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:62:3-66:47
+	android:windowSoftInputMode
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:66:4-45
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:64:4-50
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:65:4-46
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:63:4-35
+activity#com.google.android.gms.ads.AdActivity
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:67:3-70:54
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:69:4-113
+	android:theme
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:70:4-52
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:68:4-56
+meta-data#com.google.android.gms.version
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:71:3-73:59
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:73:4-57
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:72:4-49
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:74:3-78:29
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:8:9-12:39
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:76:4-69
+	android:exported
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:77:4-28
+	android:initOrder
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:78:4-27
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:75:4-68
+uses-library#org.apache.http.legacy
+ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:79:3-81:30
+	android:required
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:81:4-28
+	android:name
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml:80:4-41
+uses-sdk
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\979ba070fb608eefc4c9d4e151d92736\design-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\979ba070fb608eefc4c9d4e151d92736\design-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d674fe74b08909c1f061a20d4df48fac\appcompat-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d674fe74b08909c1f061a20d4df48fac\appcompat-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d92b8da6dae7a04215540b3d445760ac\firebase-database-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d92b8da6dae7a04215540b3d445760ac\firebase-database-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\cd2937a3b8f4ca58e92ed0fd421e6ceb\firebase-storage-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\cd2937a3b8f4ca58e92ed0fd421e6ceb\firebase-storage-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\6a05ee5d0090dfc73a6b59e5a1db2ed6\play-services-ads-15.0.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\6a05ee5d0090dfc73a6b59e5a1db2ed6\play-services-ads-15.0.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\62d16e1922e2d18b643421fafccc28b6\firebase-core-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\62d16e1922e2d18b643421fafccc28b6\firebase-core-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\0d315db11d42af3ae6287baf008b13c5\firebase-database-connection-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\0d315db11d42af3ae6287baf008b13c5\firebase-database-connection-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\314a68fb84397fcee638457a735e6ea9\play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\314a68fb84397fcee638457a735e6ea9\play-services-flags-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2dc94424ce2b3a06e8f9f7de726dc418\firebase-iid-interop-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2dc94424ce2b3a06e8f9f7de726dc418\firebase-iid-interop-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4fac23a827cdeb5d4aea05c7b5ec64f5\firebase-common-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\baa4bcf62c3f9fcca206371b6ea130a3\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\baa4bcf62c3f9fcca206371b6ea130a3\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d25eef120a2c02211dea11a0370195e3\firebase-database-collection-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d25eef120a2c02211dea11a0370195e3\firebase-database-collection-15.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\097f971830ff53cbe389585c58b0ec9e\firebase-storage-common-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\097f971830ff53cbe389585c58b0ec9e\firebase-storage-common-15.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4f3780ec8d2f27ff7de8e1fcd5376383\play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\4f3780ec8d2f27ff7de8e1fcd5376383\play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1b9670d9c799bef39e76b5a2c8f2a33d\play-services-ads-lite-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bb89fd6504b3be4409173f3a0649ba99\play-services-gass-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bb89fd6504b3be4409173f3a0649ba99\play-services-gass-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\db8c84f8c3dd0a0c7679102f10c586c2\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\db8c84f8c3dd0a0c7679102f10c586c2\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1cb2db49ada91fafd0f3de7a0fed3605\firebase-measurement-connector-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1cb2db49ada91fafd0f3de7a0fed3605\firebase-measurement-connector-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e62a7d6eae47abc0dac8dbebb5deeeb3\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e5250c0fe1a842cef4d5848ef9068b2e\support-v4-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\e5250c0fe1a842cef4d5848ef9068b2e\support-v4-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\cda701b87e206174bcadc86e87a11091\customtabs-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\cda701b87e206174bcadc86e87a11091\customtabs-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1ae2ad0a2e4a9df58a54ebd5aba2775a\support-fragment-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\1ae2ad0a2e4a9df58a54ebd5aba2775a\support-fragment-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\5ba83ff13fcf33414efb42386320cd85\support-core-utils-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\5ba83ff13fcf33414efb42386320cd85\support-core-utils-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\94d3653b1565a9bb080d68c6f4e8ed8e\animated-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\94d3653b1565a9bb080d68c6f4e8ed8e\animated-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\f80b1380080818de7efa896afd4df73c\support-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\f80b1380080818de7efa896afd4df73c\support-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d1858a2435befcf6bd97025aaa6151b4\recyclerview-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\d1858a2435befcf6bd97025aaa6151b4\recyclerview-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\82ba0796dc993ce848612e8e19542e96\transition-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\82ba0796dc993ce848612e8e19542e96\transition-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c2886df1ff95f8909c946238da21af28\support-media-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c2886df1ff95f8909c946238da21af28\support-media-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bfb24a31690706bf3b7808f9d6733e0b\support-core-ui-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\bfb24a31690706bf3b7808f9d6733e0b\support-core-ui-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2a15bf07dd031a01f4777ec3b815210c\support-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\2a15bf07dd031a01f4777ec3b815210c\support-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\46309bf182db0088520ffa71f9f5ec33\play-services-ads-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\46309bf182db0088520ffa71f9f5ec33\play-services-ads-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\f20c0066b92c4254345617ac44dc6471\runtime-1.0.3\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\f20c0066b92c4254345617ac44dc6471\runtime-1.0.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\53a0a5582fc1bb504c8435f4773cb6a4\play-services-measurement-base-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\53a0a5582fc1bb504c8435f4773cb6a4\play-services-measurement-base-15.0.2\AndroidManifest.xml:20:5-44
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\6a05ee5d0090dfc73a6b59e5a1db2ed6\play-services-ads-15.0.1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		ADDED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mahmut\youtube\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7fde72ff1b6c3b615b7c9790d5821ac1\firebase-auth-15.0.0\AndroidManifest.xml:24:13-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\c6fbacdba446cf5236a36418352a1f2b\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\8625f61ca03abb39f4ea8e424387407b\firebase-analytics-impl-15.0.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\96f243c335916ada4299ebc4807e0675\firebase-analytics-15.0.2\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+permission#com.xmod.developer.inc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+uses-permission#com.xmod.developer.inc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.xmod.developer.inc
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+category#com.xmod.developer.inc
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\7332e32cfcb205f430ec43f955801428\firebase-iid-15.1.0\AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\selim\.gradle\caches\transforms-2\files-2.1\abf88e8509e0d3ba71cbc966677a30f4\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
